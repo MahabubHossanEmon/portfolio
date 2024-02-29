@@ -439,11 +439,11 @@ header::before {
 }
 
 .bar .progress-line.html span {
-    width: 90%;
+    width: 85%;
 }
 
 .bar .progress-line.css span {
-    width: 95%;
+    width: 85%;
 }
 
 .bar .progress-line.jquery span {
@@ -451,7 +451,7 @@ header::before {
 }
 
 .bar .progress-line.python span {
-    width: 50%;
+    width: 80%;
 }
 
 .bar .progress-line.mysql span {
@@ -494,25 +494,15 @@ header::before {
     }
 }
 
-.progress-line.html span::after {
-    content: "90%";
-}
 
-.progress-line.css span::after {
-    content: "90%";
-}
 
-.progress-line.jquery span::after {
-    content: "85%";
-}
 
-.progress-line.python span::after {
-    content: "50%";
-}
 
-.progress-line.mysql span::after {
+
+
+/* .progress-line.mysql span::after {
     content: "75%";
-}
+} */
 
 /* =======PORTFOLIO======= */
 
@@ -715,6 +705,7 @@ footer ul li a:hover {
     .header_right .typing {
         font-weight: 450;
     }
+
 
     .btn {
         padding: 0.3rem 1.2rem;
